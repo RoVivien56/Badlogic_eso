@@ -6,12 +6,22 @@ public class SimpleBodyBehaviorListener {
      * @param sender
      */
     public void onStop(SimpleBody sender){}
+    public void onStopMove(SimpleBody sender){}
+    public void onStopAngular(SimpleBody sender){}
+    public void onStopColor(SimpleBody sender){}
+    public void onStopOrigin(SimpleBody sender){}
+    public void onStopSize(SimpleBody sender){}
 
     /**
      * Akkor fut le, ha bármilyen mozgás elindult, de előtte nem volt mozgásban.
      * @param sender
      */
     public void onStart(SimpleBody sender){}
+    public void onStartMove(SimpleBody sender){}
+    public void onStartAngular(SimpleBody sender){}
+    public void onStartColor(SimpleBody sender){}
+    public void onStartOrigin(SimpleBody sender){}
+    public void onStartSize(SimpleBody sender){}
 
 
     public void onLinearVelocityChanged(SimpleBody sender){}
